@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav a:hover{ /*esto es para que cuando pase el mouse sobre el link se coloque del color que decida*/
+    background-color: #00ADB5; 
+}
+
+
+.navbar {
+    background-color: #B52C39;
+}
+
+.navbar-nav {
+    flex-direction: column;
+  }
+
+
+  .Perfil img{
+    justify-content: center;
+    align-items: center;
+    width: 45rem;
+    border-radius: 25%;
+    margin-top: 30px; /* esto es para bajar desde el banner hacia abajo una inagen o lo que sea*/
+  }
+
+
+
+  /* Mi Educacion */
+
+.bg{
+    background-color: #FFC107;
+
+}
+
+.container{
+    background-color: #797979;
+
+}
+
+.estudios{
+    background-color: white;
+}
+
+/* Fork */
+.descripcion_imagen{
+    font-size: x-large;
+    color: #00ADB5;
+  }
